@@ -35,7 +35,7 @@ from termplot import bar_chart, histogram, sparkline, line_chart
 
 bar_chart(["php", "python"], [312, 984], width=30)   # -> list[str]
 histogram([1, 2, 2, 3], bins=4)                      # -> list[str]
-sparkline([2, 4, 3, 7, 6, 8, 5])                     # -> "▂▄▃█▅▆▄"
+sparkline([2, 4, 3, 7, 6, 8, 5])                     # -> "▁▃▂▇▆█▅"
 line_chart([1, 3, 2, 5, 4], width=24, height=6)      # -> list[str]
 ```
 
